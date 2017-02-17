@@ -24,16 +24,10 @@
 
 #import "dingDingViewController.h"
 
-#import "FireworksViewController.h"
-
-#import "effectOfParticleViewController.h"
-
-#import "DropEffectViewController.h"
+#import "effectOfParticleAnimatesViewController.h"
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
-@property (nonatomic , strong) UITableView *tableView;
 
-@property (nonatomic , strong) NSArray *menuArray;
 
 @end
 
@@ -47,7 +41,7 @@
 }
 
 -(void)initData{
-    _menuArray = [NSArray arrayWithObjects:@"基础动画",@"关键帧动画",@"组动画",@"仿射变换",@"过渡动画",@"仿Path 菜单动画",@"仿Path 菜单动画2",@"钉钉",@"点赞",@"粒子效果",@"粒子掉落", nil];
+    _menuArray = [NSArray arrayWithObjects:@"基础动画",@"关键帧动画",@"组动画",@"仿射变换",@"过渡动画",@"仿Path 菜单动画",@"仿Path 菜单动画2",@"钉钉",@"粒子效果", nil];
 }
 
 -(void)initView{
@@ -119,22 +113,17 @@
             viewController = [[dingDingViewController alloc] init];
             break;
         case 8:
-            viewController = [[FireworksViewController alloc] init];
+            viewController = [[effectOfParticleAnimatesViewController alloc] init];
             break;
-        case 9:
-            viewController = [[effectOfParticleViewController alloc] init];
-            break;
-        case 10:
-            viewController = [[DropEffectViewController alloc] init];
-            break;
-
+ 
         default:
             break;
     }
     
-//    //调用pushFrontViewController进行页面切换
+    //调用pushFrontViewController进行页面切换
     viewController.title =_menuArray[indexPath.row];
     [self.navigationController pushViewController:viewController animated:YES];
+    
 }
 
 @end

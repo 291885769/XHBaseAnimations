@@ -28,17 +28,37 @@
 		A919E1571E542B5400A1933F /* dingDingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E1551E542B5400A1933F /* dingDingViewController.m */; };
 		A919E1581E542B5400A1933F /* dingDingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A919E1561E542B5400A1933F /* dingDingViewController.xib */; };
 		A919E15C1E542BB100A1933F /* XHBubbleMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E15B1E542BB100A1933F /* XHBubbleMenuButton.m */; };
-		A919E1611E54354B00A1933F /* FireworksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E15F1E54354B00A1933F /* FireworksViewController.m */; };
-		A919E1621E54354B00A1933F /* FireworksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A919E1601E54354B00A1933F /* FireworksViewController.xib */; };
-		A919E1651E54362A00A1933F /* XHFireworksButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E1641E54362A00A1933F /* XHFireworksButton.m */; };
-		A919E1681E54367800A1933F /* XHFireworksView.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E1671E54367800A1933F /* XHFireworksView.m */; };
-		A919E1901E544C7200A1933F /* effectOfParticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E18E1E544C7200A1933F /* effectOfParticleViewController.m */; };
-		A919E1911E544C7200A1933F /* effectOfParticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A919E18F1E544C7200A1933F /* effectOfParticleViewController.xib */; };
-		A919E1961E55977000A1933F /* DropEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E1941E55977000A1933F /* DropEffectViewController.m */; };
-		A919E1971E55977000A1933F /* DropEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A919E1951E55977000A1933F /* DropEffectViewController.xib */; };
-		A919E19B1E559AAC00A1933F /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E1981E559AAC00A1933F /* star.png */; };
-		A919E19C1E559AAC00A1933F /* love@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E1991E559AAC00A1933F /* love@2x.png */; };
-		A919E19D1E559AAC00A1933F /* love@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E19A1E559AAC00A1933F /* love@3x.png */; };
+		A919E21C1E56E74700A1933F /* effectOfParticleAnimatesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E21B1E56E74700A1933F /* effectOfParticleAnimatesViewController.m */; };
+		A919E24D1E56E8C100A1933F /* likeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E21F1E56E8C100A1933F /* likeViewController.m */; };
+		A919E24E1E56E8C100A1933F /* likeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A919E2201E56E8C100A1933F /* likeViewController.xib */; };
+		A919E24F1E56E8C100A1933F /* XHFireworksButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E2221E56E8C100A1933F /* XHFireworksButton.m */; };
+		A919E2501E56E8C100A1933F /* XHFireworksView.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E2241E56E8C100A1933F /* XHFireworksView.m */; };
+		A919E2511E56E8C100A1933F /* GiftEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E2271E56E8C100A1933F /* GiftEffectViewController.m */; };
+		A919E2521E56E8C100A1933F /* GiftEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A919E2281E56E8C100A1933F /* GiftEffectViewController.xib */; };
+		A919E2531E56E8C100A1933F /* ic_menu_bluepig.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E22A1E56E8C100A1933F /* ic_menu_bluepig.png */; };
+		A919E2541E56E8C100A1933F /* ic_menu_bluepig2.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E22B1E56E8C100A1933F /* ic_menu_bluepig2.png */; };
+		A919E2551E56E8C100A1933F /* ic_menu_greenpig.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E22C1E56E8C100A1933F /* ic_menu_greenpig.png */; };
+		A919E2561E56E8C100A1933F /* ic_menu_greenpig2.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E22D1E56E8C100A1933F /* ic_menu_greenpig2.png */; };
+		A919E2571E56E8C100A1933F /* ic_menu_pinkpig.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E22E1E56E8C100A1933F /* ic_menu_pinkpig.png */; };
+		A919E2581E56E8C100A1933F /* ic_menu_pinkpig2.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E22F1E56E8C100A1933F /* ic_menu_pinkpig2.png */; };
+		A919E2591E56E8C100A1933F /* ic_menu_purplepig.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E2301E56E8C100A1933F /* ic_menu_purplepig.png */; };
+		A919E25A1E56E8C100A1933F /* ic_menu_purplepig2.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E2311E56E8C100A1933F /* ic_menu_purplepig2.png */; };
+		A919E25B1E56E8C100A1933F /* ic_menu_yellowpig.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E2321E56E8C100A1933F /* ic_menu_yellowpig.png */; };
+		A919E25C1E56E8C100A1933F /* ic_menu_yellowpig2.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E2331E56E8C100A1933F /* ic_menu_yellowpig2.png */; };
+		A919E25D1E56E8C100A1933F /* UIButton+Bubbling.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E2351E56E8C100A1933F /* UIButton+Bubbling.m */; };
+		A919E25E1E56E8C100A1933F /* DropEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E2381E56E8C100A1933F /* DropEffectViewController.m */; };
+		A919E25F1E56E8C100A1933F /* DropEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A919E2391E56E8C100A1933F /* DropEffectViewController.xib */; };
+		A919E2601E56E8C100A1933F /* love@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E23A1E56E8C100A1933F /* love@2x.png */; };
+		A919E2611E56E8C100A1933F /* love@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E23B1E56E8C100A1933F /* love@3x.png */; };
+		A919E2621E56E8C100A1933F /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E23C1E56E8C100A1933F /* star.png */; };
+		A919E2631E56E8C100A1933F /* effectOfParticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E23F1E56E8C100A1933F /* effectOfParticleViewController.m */; };
+		A919E2641E56E8C100A1933F /* effectOfParticleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A919E2401E56E8C100A1933F /* effectOfParticleViewController.xib */; };
+		A919E2651E56E8C100A1933F /* SprayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E2431E56E8C100A1933F /* SprayViewController.m */; };
+		A919E2661E56E8C100A1933F /* SnowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E2461E56E8C100A1933F /* SnowViewController.m */; };
+		A919E2671E56E8C100A1933F /* FFRing.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E2481E56E8C100A1933F /* FFRing.png */; };
+		A919E2681E56E8C100A1933F /* FFTspark.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E2491E56E8C100A1933F /* FFTspark.png */; };
+		A919E2691E56E8C100A1933F /* FireworksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E24B1E56E8C100A1933F /* FireworksViewController.m */; };
+		A919E26A1E56E8C100A1933F /* FireworksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A919E24C1E56E8C100A1933F /* FireworksViewController.xib */; };
 		A96A9CF61E52ED2800EC2F95 /* XHPathVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = A96A9CF51E52ED2800EC2F95 /* XHPathVIew.m */; };
 		A9761F1A1E52F1CD00199D05 /* XHConfigureSoundsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9761F191E52F1CD00199D05 /* XHConfigureSoundsModel.m */; };
 		A9A259AE1E30B2A000B21C93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A259AD1E30B2A000B21C93 /* main.m */; };
@@ -115,22 +135,48 @@
 		A919E1561E542B5400A1933F /* dingDingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dingDingViewController.xib; sourceTree = "<group>"; };
 		A919E15A1E542BB100A1933F /* XHBubbleMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHBubbleMenuButton.h; sourceTree = "<group>"; };
 		A919E15B1E542BB100A1933F /* XHBubbleMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHBubbleMenuButton.m; sourceTree = "<group>"; };
-		A919E15E1E54354B00A1933F /* FireworksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireworksViewController.h; sourceTree = "<group>"; };
-		A919E15F1E54354B00A1933F /* FireworksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireworksViewController.m; sourceTree = "<group>"; };
-		A919E1601E54354B00A1933F /* FireworksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FireworksViewController.xib; sourceTree = "<group>"; };
-		A919E1631E54362A00A1933F /* XHFireworksButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHFireworksButton.h; sourceTree = "<group>"; };
-		A919E1641E54362A00A1933F /* XHFireworksButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHFireworksButton.m; sourceTree = "<group>"; };
-		A919E1661E54367800A1933F /* XHFireworksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHFireworksView.h; sourceTree = "<group>"; };
-		A919E1671E54367800A1933F /* XHFireworksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHFireworksView.m; sourceTree = "<group>"; };
-		A919E18D1E544C7200A1933F /* effectOfParticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = effectOfParticleViewController.h; sourceTree = "<group>"; };
-		A919E18E1E544C7200A1933F /* effectOfParticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = effectOfParticleViewController.m; sourceTree = "<group>"; };
-		A919E18F1E544C7200A1933F /* effectOfParticleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = effectOfParticleViewController.xib; sourceTree = "<group>"; };
-		A919E1931E55977000A1933F /* DropEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropEffectViewController.h; sourceTree = "<group>"; };
-		A919E1941E55977000A1933F /* DropEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropEffectViewController.m; sourceTree = "<group>"; };
-		A919E1951E55977000A1933F /* DropEffectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropEffectViewController.xib; sourceTree = "<group>"; };
-		A919E1981E559AAC00A1933F /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
-		A919E1991E559AAC00A1933F /* love@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love@2x.png"; sourceTree = "<group>"; };
-		A919E19A1E559AAC00A1933F /* love@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love@3x.png"; sourceTree = "<group>"; };
+		A919E21A1E56E74700A1933F /* effectOfParticleAnimatesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = effectOfParticleAnimatesViewController.h; sourceTree = "<group>"; };
+		A919E21B1E56E74700A1933F /* effectOfParticleAnimatesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = effectOfParticleAnimatesViewController.m; sourceTree = "<group>"; };
+		A919E21E1E56E8C100A1933F /* likeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = likeViewController.h; sourceTree = "<group>"; };
+		A919E21F1E56E8C100A1933F /* likeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = likeViewController.m; sourceTree = "<group>"; };
+		A919E2201E56E8C100A1933F /* likeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = likeViewController.xib; sourceTree = "<group>"; };
+		A919E2211E56E8C100A1933F /* XHFireworksButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHFireworksButton.h; sourceTree = "<group>"; };
+		A919E2221E56E8C100A1933F /* XHFireworksButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHFireworksButton.m; sourceTree = "<group>"; };
+		A919E2231E56E8C100A1933F /* XHFireworksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHFireworksView.h; sourceTree = "<group>"; };
+		A919E2241E56E8C100A1933F /* XHFireworksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHFireworksView.m; sourceTree = "<group>"; };
+		A919E2261E56E8C100A1933F /* GiftEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiftEffectViewController.h; sourceTree = "<group>"; };
+		A919E2271E56E8C100A1933F /* GiftEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiftEffectViewController.m; sourceTree = "<group>"; };
+		A919E2281E56E8C100A1933F /* GiftEffectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GiftEffectViewController.xib; sourceTree = "<group>"; };
+		A919E22A1E56E8C100A1933F /* ic_menu_bluepig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_bluepig.png; sourceTree = "<group>"; };
+		A919E22B1E56E8C100A1933F /* ic_menu_bluepig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_bluepig2.png; sourceTree = "<group>"; };
+		A919E22C1E56E8C100A1933F /* ic_menu_greenpig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_greenpig.png; sourceTree = "<group>"; };
+		A919E22D1E56E8C100A1933F /* ic_menu_greenpig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_greenpig2.png; sourceTree = "<group>"; };
+		A919E22E1E56E8C100A1933F /* ic_menu_pinkpig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_pinkpig.png; sourceTree = "<group>"; };
+		A919E22F1E56E8C100A1933F /* ic_menu_pinkpig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_pinkpig2.png; sourceTree = "<group>"; };
+		A919E2301E56E8C100A1933F /* ic_menu_purplepig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_purplepig.png; sourceTree = "<group>"; };
+		A919E2311E56E8C100A1933F /* ic_menu_purplepig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_purplepig2.png; sourceTree = "<group>"; };
+		A919E2321E56E8C100A1933F /* ic_menu_yellowpig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_yellowpig.png; sourceTree = "<group>"; };
+		A919E2331E56E8C100A1933F /* ic_menu_yellowpig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_menu_yellowpig2.png; sourceTree = "<group>"; };
+		A919E2341E56E8C100A1933F /* UIButton+Bubbling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Bubbling.h"; sourceTree = "<group>"; };
+		A919E2351E56E8C100A1933F /* UIButton+Bubbling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Bubbling.m"; sourceTree = "<group>"; };
+		A919E2371E56E8C100A1933F /* DropEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropEffectViewController.h; sourceTree = "<group>"; };
+		A919E2381E56E8C100A1933F /* DropEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropEffectViewController.m; sourceTree = "<group>"; };
+		A919E2391E56E8C100A1933F /* DropEffectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropEffectViewController.xib; sourceTree = "<group>"; };
+		A919E23A1E56E8C100A1933F /* love@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love@2x.png"; sourceTree = "<group>"; };
+		A919E23B1E56E8C100A1933F /* love@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "love@3x.png"; sourceTree = "<group>"; };
+		A919E23C1E56E8C100A1933F /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		A919E23E1E56E8C100A1933F /* effectOfParticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = effectOfParticleViewController.h; sourceTree = "<group>"; };
+		A919E23F1E56E8C100A1933F /* effectOfParticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = effectOfParticleViewController.m; sourceTree = "<group>"; };
+		A919E2401E56E8C100A1933F /* effectOfParticleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = effectOfParticleViewController.xib; sourceTree = "<group>"; };
+		A919E2421E56E8C100A1933F /* SprayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SprayViewController.h; sourceTree = "<group>"; };
+		A919E2431E56E8C100A1933F /* SprayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SprayViewController.m; sourceTree = "<group>"; };
+		A919E2451E56E8C100A1933F /* SnowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowViewController.h; sourceTree = "<group>"; };
+		A919E2461E56E8C100A1933F /* SnowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowViewController.m; sourceTree = "<group>"; };
+		A919E2481E56E8C100A1933F /* FFRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFRing.png; sourceTree = "<group>"; };
+		A919E2491E56E8C100A1933F /* FFTspark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFTspark.png; sourceTree = "<group>"; };
+		A919E24A1E56E8C100A1933F /* FireworksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireworksViewController.h; sourceTree = "<group>"; };
+		A919E24B1E56E8C100A1933F /* FireworksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireworksViewController.m; sourceTree = "<group>"; };
+		A919E24C1E56E8C100A1933F /* FireworksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FireworksViewController.xib; sourceTree = "<group>"; };
 		A96A9CF41E52ED2800EC2F95 /* XHPathVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPathVIew.h; sourceTree = "<group>"; };
 		A96A9CF51E52ED2800EC2F95 /* XHPathVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPathVIew.m; sourceTree = "<group>"; };
 		A9761F181E52F1CD00199D05 /* XHConfigureSoundsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHConfigureSoundsModel.h; sourceTree = "<group>"; };
@@ -271,41 +317,117 @@
 			path = XHBubbleMenuButton;
 			sourceTree = "<group>";
 		};
-		A919E15D1E54351800A1933F /* 点赞 */ = {
+		A919E2191E56E71000A1933F /* 粒子效果动画 */ = {
 			isa = PBXGroup;
 			children = (
-				A919E15E1E54354B00A1933F /* FireworksViewController.h */,
-				A919E15F1E54354B00A1933F /* FireworksViewController.m */,
-				A919E1601E54354B00A1933F /* FireworksViewController.xib */,
-				A919E1631E54362A00A1933F /* XHFireworksButton.h */,
-				A919E1641E54362A00A1933F /* XHFireworksButton.m */,
-				A919E1661E54367800A1933F /* XHFireworksView.h */,
-				A919E1671E54367800A1933F /* XHFireworksView.m */,
+				A919E21A1E56E74700A1933F /* effectOfParticleAnimatesViewController.h */,
+				A919E21B1E56E74700A1933F /* effectOfParticleAnimatesViewController.m */,
+				A919E21D1E56E8C100A1933F /* 点赞 */,
+				A919E2251E56E8C100A1933F /* 礼物冒泡 */,
+				A919E2361E56E8C100A1933F /* 粒子掉落 */,
+				A919E23D1E56E8C100A1933F /* 粒子效果 */,
+				A919E2411E56E8C100A1933F /* 喷射 */,
+				A919E2441E56E8C100A1933F /* 雪花飘落 */,
+				A919E2471E56E8C100A1933F /* 烟花效果 */,
+			);
+			path = "粒子效果动画";
+			sourceTree = "<group>";
+		};
+		A919E21D1E56E8C100A1933F /* 点赞 */ = {
+			isa = PBXGroup;
+			children = (
+				A919E21E1E56E8C100A1933F /* likeViewController.h */,
+				A919E21F1E56E8C100A1933F /* likeViewController.m */,
+				A919E2201E56E8C100A1933F /* likeViewController.xib */,
+				A919E2211E56E8C100A1933F /* XHFireworksButton.h */,
+				A919E2221E56E8C100A1933F /* XHFireworksButton.m */,
+				A919E2231E56E8C100A1933F /* XHFireworksView.h */,
+				A919E2241E56E8C100A1933F /* XHFireworksView.m */,
 			);
 			path = "点赞";
 			sourceTree = "<group>";
 		};
-		A919E18C1E544C4900A1933F /* 粒子效果 */ = {
+		A919E2251E56E8C100A1933F /* 礼物冒泡 */ = {
 			isa = PBXGroup;
 			children = (
-				A919E18D1E544C7200A1933F /* effectOfParticleViewController.h */,
-				A919E18E1E544C7200A1933F /* effectOfParticleViewController.m */,
-				A919E18F1E544C7200A1933F /* effectOfParticleViewController.xib */,
+				A919E2261E56E8C100A1933F /* GiftEffectViewController.h */,
+				A919E2271E56E8C100A1933F /* GiftEffectViewController.m */,
+				A919E2281E56E8C100A1933F /* GiftEffectViewController.xib */,
+				A919E2291E56E8C100A1933F /* images */,
+				A919E2341E56E8C100A1933F /* UIButton+Bubbling.h */,
+				A919E2351E56E8C100A1933F /* UIButton+Bubbling.m */,
+			);
+			path = "礼物冒泡";
+			sourceTree = "<group>";
+		};
+		A919E2291E56E8C100A1933F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A919E22A1E56E8C100A1933F /* ic_menu_bluepig.png */,
+				A919E22B1E56E8C100A1933F /* ic_menu_bluepig2.png */,
+				A919E22C1E56E8C100A1933F /* ic_menu_greenpig.png */,
+				A919E22D1E56E8C100A1933F /* ic_menu_greenpig2.png */,
+				A919E22E1E56E8C100A1933F /* ic_menu_pinkpig.png */,
+				A919E22F1E56E8C100A1933F /* ic_menu_pinkpig2.png */,
+				A919E2301E56E8C100A1933F /* ic_menu_purplepig.png */,
+				A919E2311E56E8C100A1933F /* ic_menu_purplepig2.png */,
+				A919E2321E56E8C100A1933F /* ic_menu_yellowpig.png */,
+				A919E2331E56E8C100A1933F /* ic_menu_yellowpig2.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A919E2361E56E8C100A1933F /* 粒子掉落 */ = {
+			isa = PBXGroup;
+			children = (
+				A919E2371E56E8C100A1933F /* DropEffectViewController.h */,
+				A919E2381E56E8C100A1933F /* DropEffectViewController.m */,
+				A919E2391E56E8C100A1933F /* DropEffectViewController.xib */,
+				A919E23A1E56E8C100A1933F /* love@2x.png */,
+				A919E23B1E56E8C100A1933F /* love@3x.png */,
+				A919E23C1E56E8C100A1933F /* star.png */,
+			);
+			path = "粒子掉落";
+			sourceTree = "<group>";
+		};
+		A919E23D1E56E8C100A1933F /* 粒子效果 */ = {
+			isa = PBXGroup;
+			children = (
+				A919E23E1E56E8C100A1933F /* effectOfParticleViewController.h */,
+				A919E23F1E56E8C100A1933F /* effectOfParticleViewController.m */,
+				A919E2401E56E8C100A1933F /* effectOfParticleViewController.xib */,
 			);
 			path = "粒子效果";
 			sourceTree = "<group>";
 		};
-		A919E1921E55974000A1933F /* 粒子掉落 */ = {
+		A919E2411E56E8C100A1933F /* 喷射 */ = {
 			isa = PBXGroup;
 			children = (
-				A919E1931E55977000A1933F /* DropEffectViewController.h */,
-				A919E1941E55977000A1933F /* DropEffectViewController.m */,
-				A919E1951E55977000A1933F /* DropEffectViewController.xib */,
-				A919E1981E559AAC00A1933F /* star.png */,
-				A919E1991E559AAC00A1933F /* love@2x.png */,
-				A919E19A1E559AAC00A1933F /* love@3x.png */,
+				A919E2421E56E8C100A1933F /* SprayViewController.h */,
+				A919E2431E56E8C100A1933F /* SprayViewController.m */,
 			);
-			path = "粒子掉落";
+			path = "喷射";
+			sourceTree = "<group>";
+		};
+		A919E2441E56E8C100A1933F /* 雪花飘落 */ = {
+			isa = PBXGroup;
+			children = (
+				A919E2451E56E8C100A1933F /* SnowViewController.h */,
+				A919E2461E56E8C100A1933F /* SnowViewController.m */,
+			);
+			path = "雪花飘落";
+			sourceTree = "<group>";
+		};
+		A919E2471E56E8C100A1933F /* 烟花效果 */ = {
+			isa = PBXGroup;
+			children = (
+				A919E2481E56E8C100A1933F /* FFRing.png */,
+				A919E2491E56E8C100A1933F /* FFTspark.png */,
+				A919E24A1E56E8C100A1933F /* FireworksViewController.h */,
+				A919E24B1E56E8C100A1933F /* FireworksViewController.m */,
+				A919E24C1E56E8C100A1933F /* FireworksViewController.xib */,
+			);
+			path = "烟花效果";
 			sourceTree = "<group>";
 		};
 		A9A259A01E30B2A000B21C93 = {
@@ -355,9 +477,7 @@
 			children = (
 				A9A259D11E30B5EC00B21C93 /* BaseViewController.h */,
 				A9A259D21E30B5EC00B21C93 /* BaseViewController.m */,
-				A919E1921E55974000A1933F /* 粒子掉落 */,
-				A919E18C1E544C4900A1933F /* 粒子效果 */,
-				A919E15D1E54351800A1933F /* 点赞 */,
+				A919E2191E56E71000A1933F /* 粒子效果动画 */,
 				A919E1531E542B4000A1933F /* 钉钉 */,
 				A919E1291E5401EE00A1933F /* 仿Path菜单动画2 */,
 				A9FF6B461E52E1380046F1B4 /* 仿Path菜单动画 */,
@@ -554,57 +674,71 @@
 			files = (
 				A9FF6B731E52E9AC0046F1B4 /* chooser-button-tab-highlighted@2x.png in Resources */,
 				A919E1481E5402A800A1933F /* bg-addbutton@2x.png in Resources */,
+				A919E2581E56E8C100A1933F /* ic_menu_pinkpig2.png in Resources */,
 				A9FF6B7A1E52E9AC0046F1B4 /* chooser-moment-icon-music@2x.png in Resources */,
 				A9C4293B1E3200D400599E91 /* GroupAnimationController.xib in Resources */,
 				A9A259BC1E30B2A000B21C93 /* LaunchScreen.storyboard in Resources */,
+				A919E26A1E56E8C100A1933F /* FireworksViewController.xib in Resources */,
 				A9FF6B791E52E9AC0046F1B4 /* chooser-moment-icon-music-highlighted@2x.png in Resources */,
 				A9FF6B811E52E9AC0046F1B4 /* Like-Blue@2x.png in Resources */,
 				A9A259B91E30B2A000B21C93 /* Assets.xcassets in Resources */,
 				A9FF6B771E52E9AC0046F1B4 /* chooser-moment-icon-camera-highlighted@2x.png in Resources */,
-				A919E19B1E559AAC00A1933F /* star.png in Resources */,
+				A919E2571E56E8C100A1933F /* ic_menu_pinkpig.png in Resources */,
 				A9FF6B751E52E9AC0046F1B4 /* chooser-moment-button-highlighted@2x.png in Resources */,
 				A919E14C1E5402A800A1933F /* bg-menuitem@2x.png in Resources */,
+				A919E2561E56E8C100A1933F /* ic_menu_greenpig2.png in Resources */,
 				A9FF6B721E52E9AC0046F1B4 /* chooser-button-input@2x.png in Resources */,
 				A9FF6B401E52DE630046F1B4 /* TransitionAnimationController.xib in Resources */,
 				A9FF6B821E52E9AC0046F1B4 /* Like@2x.png in Resources */,
 				A919E14D1E5402A800A1933F /* icon-plus-highlighted.png in Resources */,
 				A9FF6B5C1E52E6F00046F1B4 /* selected.caf in Resources */,
+				A919E2611E56E8C100A1933F /* love@3x.png in Resources */,
 				A9FF6B7E1E52E9AC0046F1B4 /* chooser-moment-icon-sleep@2x.png in Resources */,
 				A9FF6B801E52E9AC0046F1B4 /* chooser-moment-icon-thought@2x.png in Resources */,
+				A919E2671E56E8C100A1933F /* FFRing.png in Resources */,
 				A919E1511E5402A800A1933F /* icon-star.png in Resources */,
+				A919E2591E56E8C100A1933F /* ic_menu_purplepig.png in Resources */,
 				A9FF6B5A1E52E6F00046F1B4 /* bloom.caf in Resources */,
 				A9FF6B831E52E9AC0046F1B4 /* Sparkle.png in Resources */,
 				A9FF6B741E52E9AC0046F1B4 /* chooser-button-tab@2x.png in Resources */,
+				A919E25B1E56E8C100A1933F /* ic_menu_yellowpig.png in Resources */,
+				A919E24E1E56E8C100A1933F /* likeViewController.xib in Resources */,
 				A9FF6B451E52DFEE0046F1B4 /* ComprehensiveCaseController.xib in Resources */,
 				A919E14B1E5402A800A1933F /* bg-menuitem.png in Resources */,
-				A919E1971E55977000A1933F /* DropEffectViewController.xib in Resources */,
-				A919E1911E544C7200A1933F /* effectOfParticleViewController.xib in Resources */,
+				A919E2601E56E8C100A1933F /* love@2x.png in Resources */,
 				A9A259D91E30B81F00B21C93 /* BaseAnimationViewController.xib in Resources */,
 				A919E1451E5402A800A1933F /* bg-addbutton-highlighted.png in Resources */,
+				A919E25F1E56E8C100A1933F /* DropEffectViewController.xib in Resources */,
 				A919E1491E5402A800A1933F /* bg-menuitem-highlighted.png in Resources */,
+				A919E2521E56E8C100A1933F /* GiftEffectViewController.xib in Resources */,
 				A9C429471E3208E000599E91 /* AffineTransformController.xib in Resources */,
+				A919E2641E56E8C100A1933F /* effectOfParticleViewController.xib in Resources */,
 				A9C429341E31EA9600599E91 /* KeyFrameAnimationsController.xib in Resources */,
 				A919E14A1E5402A800A1933F /* bg-menuitem-highlighted@2x.png in Resources */,
 				A9FF6B761E52E9AC0046F1B4 /* chooser-moment-button@2x.png in Resources */,
-				A919E1621E54354B00A1933F /* FireworksViewController.xib in Resources */,
+				A919E2621E56E8C100A1933F /* star.png in Resources */,
 				A9FF6B5B1E52E6F00046F1B4 /* fold.caf in Resources */,
 				A9FF6B4B1E52E14E0046F1B4 /* PathMenusViewController.xib in Resources */,
+				A919E2541E56E8C100A1933F /* ic_menu_bluepig2.png in Resources */,
+				A919E25C1E56E8C100A1933F /* ic_menu_yellowpig2.png in Resources */,
+				A919E2681E56E8C100A1933F /* FFTspark.png in Resources */,
 				A919E1471E5402A800A1933F /* bg-addbutton.png in Resources */,
 				A919E1501E5402A800A1933F /* icon-plus@2x.png in Resources */,
+				A919E2551E56E8C100A1933F /* ic_menu_greenpig.png in Resources */,
 				A919E14E1E5402A800A1933F /* icon-plus-highlighted@2x.png in Resources */,
 				A9FF6B7C1E52E9AC0046F1B4 /* chooser-moment-icon-place@2x.png in Resources */,
 				A919E12E1E54020700A1933F /* PathMenusViewController2.xib in Resources */,
 				A9FF6B781E52E9AC0046F1B4 /* chooser-moment-icon-camera@2x.png in Resources */,
-				A919E19D1E559AAC00A1933F /* love@3x.png in Resources */,
 				A919E1521E5402A800A1933F /* icon-star@2x.png in Resources */,
 				A9A259B71E30B2A000B21C93 /* Main.storyboard in Resources */,
 				A919E1461E5402A800A1933F /* bg-addbutton-highlighted@2x.png in Resources */,
 				A9FF6B711E52E9AC0046F1B4 /* chooser-button-input-highlighted@2x.png in Resources */,
 				A9FF6B7B1E52E9AC0046F1B4 /* chooser-moment-icon-place-highlighted@2x.png in Resources */,
+				A919E25A1E56E8C100A1933F /* ic_menu_purplepig2.png in Resources */,
+				A919E2531E56E8C100A1933F /* ic_menu_bluepig.png in Resources */,
 				A9FF6B7D1E52E9AC0046F1B4 /* chooser-moment-icon-sleep-highlighted@2x.png in Resources */,
 				A919E14F1E5402A800A1933F /* icon-plus.png in Resources */,
 				A919E1581E542B5400A1933F /* dingDingViewController.xib in Resources */,
-				A919E19C1E559AAC00A1933F /* love@2x.png in Resources */,
 				A9FF6B7F1E52E9AC0046F1B4 /* chooser-moment-icon-thought-highlighted@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -620,27 +754,33 @@
 				A9A259B41E30B2A000B21C93 /* ViewController.m in Sources */,
 				A9A259D41E30B5EC00B21C93 /* BaseViewController.m in Sources */,
 				A919E1571E542B5400A1933F /* dingDingViewController.m in Sources */,
-				A919E1681E54367800A1933F /* XHFireworksView.m in Sources */,
+				A919E2501E56E8C100A1933F /* XHFireworksView.m in Sources */,
 				A9C429331E31EA9600599E91 /* KeyFrameAnimationsController.m in Sources */,
+				A919E2651E56E8C100A1933F /* SprayViewController.m in Sources */,
+				A919E25D1E56E8C100A1933F /* UIButton+Bubbling.m in Sources */,
+				A919E24F1E56E8C100A1933F /* XHFireworksButton.m in Sources */,
 				A9A259B11E30B2A000B21C93 /* AppDelegate.m in Sources */,
 				A96A9CF61E52ED2800EC2F95 /* XHPathVIew.m in Sources */,
-				A919E1901E544C7200A1933F /* effectOfParticleViewController.m in Sources */,
 				A9FF6B551E52E5930046F1B4 /* XHPathItemButton.m in Sources */,
+				A919E25E1E56E8C100A1933F /* DropEffectViewController.m in Sources */,
 				A919E15C1E542BB100A1933F /* XHBubbleMenuButton.m in Sources */,
 				A9FF6B4A1E52E14E0046F1B4 /* PathMenusViewController.m in Sources */,
+				A919E2511E56E8C100A1933F /* GiftEffectViewController.m in Sources */,
 				A9C4293A1E3200D400599E91 /* GroupAnimationController.m in Sources */,
+				A919E2661E56E8C100A1933F /* SnowViewController.m in Sources */,
 				A9761F1A1E52F1CD00199D05 /* XHConfigureSoundsModel.m in Sources */,
+				A919E21C1E56E74700A1933F /* effectOfParticleAnimatesViewController.m in Sources */,
 				A9A259AE1E30B2A000B21C93 /* main.m in Sources */,
-				A919E1961E55977000A1933F /* DropEffectViewController.m in Sources */,
+				A919E24D1E56E8C100A1933F /* likeViewController.m in Sources */,
 				A919E12D1E54020700A1933F /* PathMenusViewController2.m in Sources */,
 				A9FF6B4F1E52E2230046F1B4 /* XHPathCenterButton.m in Sources */,
-				A919E1611E54354B00A1933F /* FireworksViewController.m in Sources */,
 				A919E1351E54022500A1933F /* AwesomeMenuItem.m in Sources */,
 				A9A259D81E30B81F00B21C93 /* BaseAnimationViewController.m in Sources */,
-				A919E1651E54362A00A1933F /* XHFireworksButton.m in Sources */,
 				A9FF6B441E52DFEE0046F1B4 /* ComprehensiveCaseController.m in Sources */,
 				A9C429461E3208E000599E91 /* AffineTransformController.m in Sources */,
 				A919E1341E54022500A1933F /* AwesomeMenu.m in Sources */,
+				A919E2631E56E8C100A1933F /* effectOfParticleViewController.m in Sources */,
+				A919E2691E56E8C100A1933F /* FireworksViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

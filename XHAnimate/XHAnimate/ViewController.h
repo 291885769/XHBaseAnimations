@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (nonatomic , strong) UITableView *tableView;
 
+@property (nonatomic , strong) NSArray *menuArray;
 
 @end
 

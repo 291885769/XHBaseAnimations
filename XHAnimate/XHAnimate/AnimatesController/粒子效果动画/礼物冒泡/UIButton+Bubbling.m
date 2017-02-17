@@ -117,7 +117,7 @@
         //layer的masklayer这一属性。masklayer的意思是被masklayer所覆盖的地方才会显示，没有被覆盖的地方不显示。 现在是全部遮盖
         //如果我们把mask是透明的，实际看到的layer是完全透明的，也就是说只有mask的内容不透明的部分和layer叠加的部分才会显示
         heartLayer.mask = maskLayer;
-        heartLayer.backgroundColor = [UIColor blueColor].CGColor;
+        heartLayer.backgroundColor = color.CGColor;
     }
     else
     {
