@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TransitionAnimationController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="el8-bO-KTW">
+                    <rect key="frame" x="16" y="516" width="61" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.69411764710000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="fade"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="-1" eventType="touchUpInside" id="V9D-Ib-RNR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7z-8K-gSA">
+                    <rect key="frame" x="85" y="516" width="61" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.69411764710000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="moveIn"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="-1" eventType="touchUpInside" id="bFM-O0-toR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6Y-Me-g7T">
+                    <rect key="frame" x="154" y="516" width="61" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.69411764710000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="push"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="-1" eventType="touchUpInside" id="VNM-3a-ubV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BKr-JB-fes">
+                    <rect key="frame" x="223" y="516" width="61" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.69411764710000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="reveal"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="-1" eventType="touchUpInside" id="s1S-Pg-RmI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LBT-s2-cMW">
+                    <rect key="frame" x="16" y="564" width="61" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.69411764710000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="cube"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="-1" eventType="touchUpInside" id="GYx-jq-l0c"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXP-jv-zrS">
+                    <rect key="frame" x="85" y="564" width="61" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.69411764710000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="suck"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="-1" eventType="touchUpInside" id="yOF-68-icc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WdT-jS-gIW">
+                    <rect key="frame" x="154" y="564" width="61" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.69411764710000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="oglFlip"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="-1" eventType="touchUpInside" id="veA-va-FX8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Rf-JQ-WSk">
+                    <rect key="frame" x="223" y="564" width="61" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.69411764710000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="ripple"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="-1" eventType="touchUpInside" id="SdK-It-B61"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSz-Qf-bei">
+                    <rect key="frame" x="16" y="610" width="61" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.69411764710000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Curl"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="-1" eventType="touchUpInside" id="NwK-X0-uTZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yLa-q4-Mei">
+                    <rect key="frame" x="85" y="610" width="61" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.69411764710000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="UnCurl"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="-1" eventType="touchUpInside" id="42g-Sh-jR3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="air-dr-0Ej">
+                    <rect key="frame" x="154" y="610" width="61" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.69411764710000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="caOpen"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="-1" eventType="touchUpInside" id="sac-sx-qxm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tJa-48-scj">
+                    <rect key="frame" x="223" y="610" width="61" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.98039215690000003" green="0.69411764710000001" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="caClose"/>
+                    <connections>
+                        <action selector="clickBtn:" destination="-1" eventType="touchUpInside" id="Fuh-H3-4lm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </view>
+    </objects>
+</document>
