@@ -8,6 +8,6 @@
 
 #import "BaseViewController.h"
 
-@interface FireworksViewController : BaseViewController
+@interface likeViewController : BaseViewController
 
 @end

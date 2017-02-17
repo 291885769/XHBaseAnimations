@@ -6,16 +6,16 @@
 //  Copyright © 2017年 Weimob-fu. All rights reserved.
 //
 
-#import "FireworksViewController.h"
+#import "likeViewController.h"
 
 #import "XHFireworksButton.h"
 
-@interface FireworksViewController ()
+@interface likeViewController ()
 @property (nonatomic , strong) XHFireworksButton *goodBtn;
 @property (nonatomic , assign) BOOL selected;
 @end
 
-@implementation FireworksViewController
+@implementation likeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
