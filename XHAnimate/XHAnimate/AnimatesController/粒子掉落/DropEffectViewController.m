@@ -198,7 +198,7 @@
         
         UIImage *image = [images objectAtIndex:rand()%[images count]];
         UIImageView * imageView =[[UIImageView alloc ]initWithImage:image];
-        imageView.backgroundColor=[UIColor redColor];
+//        imageView.backgroundColor=[UIColor redColor];
         imageView.contentMode = UIViewContentModeCenter;
         // 设置 开始路径
         imageView.center = CGPointMake(50, 100);
@@ -224,7 +224,7 @@
         /** 碰撞效果*/
         self.collisionBehavitor = [[UICollisionBehavior alloc] init];
         //碰撞动力界限是否有效 YES 界限起作用 NO 不起作用
-        [self.collisionBehavitor setTranslatesReferenceBoundsIntoBoundary:NO];
+        [self.collisionBehavitor setTranslatesReferenceBoundsIntoBoundary:YES];
         [_animator addBehavior:self.gravityBehavior];
         [_animator addBehavior:self.collisionBehavitor];
     }
