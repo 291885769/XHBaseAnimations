@@ -59,6 +59,11 @@
 		A919E2681E56E8C100A1933F /* FFTspark.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E2491E56E8C100A1933F /* FFTspark.png */; };
 		A919E2691E56E8C100A1933F /* FireworksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E24B1E56E8C100A1933F /* FireworksViewController.m */; };
 		A919E26A1E56E8C100A1933F /* FireworksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A919E24C1E56E8C100A1933F /* FireworksViewController.xib */; };
+		A919E26E1E56F1A600A1933F /* CALayerAnimaeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E26D1E56F1A600A1933F /* CALayerAnimaeViewController.m */; };
+		A919E2731E56F21100A1933F /* MaskAnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A919E2711E56F21100A1933F /* MaskAnimateViewController.m */; };
+		A919E2741E56F21100A1933F /* MaskAnimateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A919E2721E56F21100A1933F /* MaskAnimateViewController.xib */; };
+		A919E2761E56F25200A1933F /* pull_refresh_arrow_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E2751E56F25200A1933F /* pull_refresh_arrow_highlight@2x.png */; };
+		A919E2781E56F25F00A1933F /* pull_refresh_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A919E2771E56F25F00A1933F /* pull_refresh_arrow@2x.png */; };
 		A96A9CF61E52ED2800EC2F95 /* XHPathVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = A96A9CF51E52ED2800EC2F95 /* XHPathVIew.m */; };
 		A9761F1A1E52F1CD00199D05 /* XHConfigureSoundsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9761F191E52F1CD00199D05 /* XHConfigureSoundsModel.m */; };
 		A9A259AE1E30B2A000B21C93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A259AD1E30B2A000B21C93 /* main.m */; };
@@ -177,6 +182,13 @@
 		A919E24A1E56E8C100A1933F /* FireworksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireworksViewController.h; sourceTree = "<group>"; };
 		A919E24B1E56E8C100A1933F /* FireworksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireworksViewController.m; sourceTree = "<group>"; };
 		A919E24C1E56E8C100A1933F /* FireworksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FireworksViewController.xib; sourceTree = "<group>"; };
+		A919E26C1E56F1A600A1933F /* CALayerAnimaeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerAnimaeViewController.h; sourceTree = "<group>"; };
+		A919E26D1E56F1A600A1933F /* CALayerAnimaeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerAnimaeViewController.m; sourceTree = "<group>"; };
+		A919E2701E56F21100A1933F /* MaskAnimateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MaskAnimateViewController.h; sourceTree = "<group>"; };
+		A919E2711E56F21100A1933F /* MaskAnimateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MaskAnimateViewController.m; sourceTree = "<group>"; };
+		A919E2721E56F21100A1933F /* MaskAnimateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MaskAnimateViewController.xib; sourceTree = "<group>"; };
+		A919E2751E56F25200A1933F /* pull_refresh_arrow_highlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull_refresh_arrow_highlight@2x.png"; sourceTree = "<group>"; };
+		A919E2771E56F25F00A1933F /* pull_refresh_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pull_refresh_arrow@2x.png"; sourceTree = "<group>"; };
 		A96A9CF41E52ED2800EC2F95 /* XHPathVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHPathVIew.h; sourceTree = "<group>"; };
 		A96A9CF51E52ED2800EC2F95 /* XHPathVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHPathVIew.m; sourceTree = "<group>"; };
 		A9761F181E52F1CD00199D05 /* XHConfigureSoundsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHConfigureSoundsModel.h; sourceTree = "<group>"; };
@@ -430,6 +442,28 @@
 			path = "烟花效果";
 			sourceTree = "<group>";
 		};
+		A919E26B1E56F19200A1933F /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				A919E26C1E56F1A600A1933F /* CALayerAnimaeViewController.h */,
+				A919E26D1E56F1A600A1933F /* CALayerAnimaeViewController.m */,
+				A919E26F1E56F1F400A1933F /* 遮罩层 */,
+			);
+			path = CALayer;
+			sourceTree = "<group>";
+		};
+		A919E26F1E56F1F400A1933F /* 遮罩层 */ = {
+			isa = PBXGroup;
+			children = (
+				A919E2751E56F25200A1933F /* pull_refresh_arrow_highlight@2x.png */,
+				A919E2771E56F25F00A1933F /* pull_refresh_arrow@2x.png */,
+				A919E2701E56F21100A1933F /* MaskAnimateViewController.h */,
+				A919E2711E56F21100A1933F /* MaskAnimateViewController.m */,
+				A919E2721E56F21100A1933F /* MaskAnimateViewController.xib */,
+			);
+			path = "遮罩层";
+			sourceTree = "<group>";
+		};
 		A9A259A01E30B2A000B21C93 = {
 			isa = PBXGroup;
 			children = (
@@ -477,6 +511,7 @@
 			children = (
 				A9A259D11E30B5EC00B21C93 /* BaseViewController.h */,
 				A9A259D21E30B5EC00B21C93 /* BaseViewController.m */,
+				A919E26B1E56F19200A1933F /* CALayer */,
 				A919E2191E56E71000A1933F /* 粒子效果动画 */,
 				A919E1531E542B4000A1933F /* 钉钉 */,
 				A919E1291E5401EE00A1933F /* 仿Path菜单动画2 */,
@@ -682,6 +717,7 @@
 				A9FF6B791E52E9AC0046F1B4 /* chooser-moment-icon-music-highlighted@2x.png in Resources */,
 				A9FF6B811E52E9AC0046F1B4 /* Like-Blue@2x.png in Resources */,
 				A9A259B91E30B2A000B21C93 /* Assets.xcassets in Resources */,
+				A919E2761E56F25200A1933F /* pull_refresh_arrow_highlight@2x.png in Resources */,
 				A9FF6B771E52E9AC0046F1B4 /* chooser-moment-icon-camera-highlighted@2x.png in Resources */,
 				A919E2571E56E8C100A1933F /* ic_menu_pinkpig.png in Resources */,
 				A9FF6B751E52E9AC0046F1B4 /* chooser-moment-button-highlighted@2x.png in Resources */,
@@ -694,10 +730,12 @@
 				A9FF6B5C1E52E6F00046F1B4 /* selected.caf in Resources */,
 				A919E2611E56E8C100A1933F /* love@3x.png in Resources */,
 				A9FF6B7E1E52E9AC0046F1B4 /* chooser-moment-icon-sleep@2x.png in Resources */,
+				A919E2781E56F25F00A1933F /* pull_refresh_arrow@2x.png in Resources */,
 				A9FF6B801E52E9AC0046F1B4 /* chooser-moment-icon-thought@2x.png in Resources */,
 				A919E2671E56E8C100A1933F /* FFRing.png in Resources */,
 				A919E1511E5402A800A1933F /* icon-star.png in Resources */,
 				A919E2591E56E8C100A1933F /* ic_menu_purplepig.png in Resources */,
+				A919E2741E56F21100A1933F /* MaskAnimateViewController.xib in Resources */,
 				A9FF6B5A1E52E6F00046F1B4 /* bloom.caf in Resources */,
 				A9FF6B831E52E9AC0046F1B4 /* Sparkle.png in Resources */,
 				A9FF6B741E52E9AC0046F1B4 /* chooser-button-tab@2x.png in Resources */,
@@ -753,6 +791,7 @@
 				A9FF6B3F1E52DE630046F1B4 /* TransitionAnimationController.m in Sources */,
 				A9A259B41E30B2A000B21C93 /* ViewController.m in Sources */,
 				A9A259D41E30B5EC00B21C93 /* BaseViewController.m in Sources */,
+				A919E26E1E56F1A600A1933F /* CALayerAnimaeViewController.m in Sources */,
 				A919E1571E542B5400A1933F /* dingDingViewController.m in Sources */,
 				A919E2501E56E8C100A1933F /* XHFireworksView.m in Sources */,
 				A9C429331E31EA9600599E91 /* KeyFrameAnimationsController.m in Sources */,
@@ -778,6 +817,7 @@
 				A9A259D81E30B81F00B21C93 /* BaseAnimationViewController.m in Sources */,
 				A9FF6B441E52DFEE0046F1B4 /* ComprehensiveCaseController.m in Sources */,
 				A9C429461E3208E000599E91 /* AffineTransformController.m in Sources */,
+				A919E2731E56F21100A1933F /* MaskAnimateViewController.m in Sources */,
 				A919E1341E54022500A1933F /* AwesomeMenu.m in Sources */,
 				A919E2631E56E8C100A1933F /* effectOfParticleViewController.m in Sources */,
 				A919E2691E56E8C100A1933F /* FireworksViewController.m in Sources */,
