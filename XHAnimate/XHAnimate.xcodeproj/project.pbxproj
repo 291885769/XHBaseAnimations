@@ -75,6 +75,9 @@
 		A9A259D41E30B5EC00B21C93 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A259D21E30B5EC00B21C93 /* BaseViewController.m */; };
 		A9A259D81E30B81F00B21C93 /* BaseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9A259D61E30B81F00B21C93 /* BaseAnimationViewController.m */; };
 		A9A259D91E30B81F00B21C93 /* BaseAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9A259D71E30B81F00B21C93 /* BaseAnimationViewController.xib */; };
+		A9B78E591E5D839B0017D133 /* XHCoreAnimationEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B78E581E5D839B0017D133 /* XHCoreAnimationEffect.m */; };
+		A9B78E5D1E5D83E60017D133 /* XHCommonAnimationCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B78E5B1E5D83E60017D133 /* XHCommonAnimationCollectionViewController.m */; };
+		A9B78E5E1E5D83E60017D133 /* XHCommonAnimationCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9B78E5C1E5D83E60017D133 /* XHCommonAnimationCollectionViewController.xib */; };
 		A9C429331E31EA9600599E91 /* KeyFrameAnimationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C429311E31EA9600599E91 /* KeyFrameAnimationsController.m */; };
 		A9C429341E31EA9600599E91 /* KeyFrameAnimationsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9C429321E31EA9600599E91 /* KeyFrameAnimationsController.xib */; };
 		A9C4293A1E3200D400599E91 /* GroupAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C429381E3200D400599E91 /* GroupAnimationController.m */; };
@@ -249,6 +252,11 @@
 		A9A259D51E30B81F00B21C93 /* BaseAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimationViewController.h; sourceTree = "<group>"; };
 		A9A259D61E30B81F00B21C93 /* BaseAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationViewController.m; sourceTree = "<group>"; };
 		A9A259D71E30B81F00B21C93 /* BaseAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseAnimationViewController.xib; sourceTree = "<group>"; };
+		A9B78E571E5D839B0017D133 /* XHCoreAnimationEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCoreAnimationEffect.h; sourceTree = "<group>"; };
+		A9B78E581E5D839B0017D133 /* XHCoreAnimationEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCoreAnimationEffect.m; sourceTree = "<group>"; };
+		A9B78E5A1E5D83E60017D133 /* XHCommonAnimationCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCommonAnimationCollectionViewController.h; sourceTree = "<group>"; };
+		A9B78E5B1E5D83E60017D133 /* XHCommonAnimationCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCommonAnimationCollectionViewController.m; sourceTree = "<group>"; };
+		A9B78E5C1E5D83E60017D133 /* XHCommonAnimationCollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHCommonAnimationCollectionViewController.xib; sourceTree = "<group>"; };
 		A9C429301E31EA9600599E91 /* KeyFrameAnimationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimationsController.h; sourceTree = "<group>"; };
 		A9C429311E31EA9600599E91 /* KeyFrameAnimationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAnimationsController.m; sourceTree = "<group>"; };
 		A9C429321E31EA9600599E91 /* KeyFrameAnimationsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyFrameAnimationsController.xib; sourceTree = "<group>"; };
@@ -645,6 +653,7 @@
 			children = (
 				A9A259D11E30B5EC00B21C93 /* BaseViewController.h */,
 				A9A259D21E30B5EC00B21C93 /* BaseViewController.m */,
+				A9B78E561E5D83940017D133 /* 常用动画集合类 */,
 				A9E6AB051E5C173300989195 /* POPing */,
 				A919E26B1E56F19200A1933F /* CALayer */,
 				A919E2191E56E71000A1933F /* 粒子效果动画 */,
@@ -669,6 +678,18 @@
 				A9A259D71E30B81F00B21C93 /* BaseAnimationViewController.xib */,
 			);
 			path = "基础动画";
+			sourceTree = "<group>";
+		};
+		A9B78E561E5D83940017D133 /* 常用动画集合类 */ = {
+			isa = PBXGroup;
+			children = (
+				A9B78E571E5D839B0017D133 /* XHCoreAnimationEffect.h */,
+				A9B78E581E5D839B0017D133 /* XHCoreAnimationEffect.m */,
+				A9B78E5A1E5D83E60017D133 /* XHCommonAnimationCollectionViewController.h */,
+				A9B78E5B1E5D83E60017D133 /* XHCommonAnimationCollectionViewController.m */,
+				A9B78E5C1E5D83E60017D133 /* XHCommonAnimationCollectionViewController.xib */,
+			);
+			path = "常用动画集合类";
 			sourceTree = "<group>";
 		};
 		A9C4292C1E31E9CD00599E91 /* 关键帧 */ = {
@@ -1081,6 +1102,7 @@
 				A919E2581E56E8C100A1933F /* ic_menu_pinkpig2.png in Resources */,
 				A9FF6B7A1E52E9AC0046F1B4 /* chooser-moment-icon-music@2x.png in Resources */,
 				A9C4293B1E3200D400599E91 /* GroupAnimationController.xib in Resources */,
+				A9B78E5E1E5D83E60017D133 /* XHCommonAnimationCollectionViewController.xib in Resources */,
 				A9A259BC1E30B2A000B21C93 /* LaunchScreen.storyboard in Resources */,
 				A919E26A1E56E8C100A1933F /* FireworksViewController.xib in Resources */,
 				A9FF6B791E52E9AC0046F1B4 /* chooser-moment-icon-music-highlighted@2x.png in Resources */,
@@ -1181,6 +1203,7 @@
 				A919E2651E56E8C100A1933F /* SprayViewController.m in Sources */,
 				A9E6AB4C1E5C180C00989195 /* POPDecayAnimation.mm in Sources */,
 				A919E25D1E56E8C100A1933F /* UIButton+Bubbling.m in Sources */,
+				A9B78E5D1E5D83E60017D133 /* XHCommonAnimationCollectionViewController.m in Sources */,
 				A919E24F1E56E8C100A1933F /* XHFireworksButton.m in Sources */,
 				A9A259B11E30B2A000B21C93 /* AppDelegate.m in Sources */,
 				A96A9CF61E52ED2800EC2F95 /* XHPathVIew.m in Sources */,
@@ -1214,6 +1237,7 @@
 				A919E1351E54022500A1933F /* AwesomeMenuItem.m in Sources */,
 				A9E6AB641E5C32CD00989195 /* POPDecayViewController.m in Sources */,
 				A9A259D81E30B81F00B21C93 /* BaseAnimationViewController.m in Sources */,
+				A9B78E591E5D839B0017D133 /* XHCoreAnimationEffect.m in Sources */,
 				A9E6AB4B1E5C180C00989195 /* POPCustomAnimation.mm in Sources */,
 				A9E6ABCF1E5C3DD300989195 /* PresentingAnimator.m in Sources */,
 				A9FF6B441E52DFEE0046F1B4 /* ComprehensiveCaseController.m in Sources */,
