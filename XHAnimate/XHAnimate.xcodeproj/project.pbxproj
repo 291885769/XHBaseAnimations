@@ -125,6 +125,14 @@
 		A9E6ABE71E5C43C800989195 /* PasswordStrengthIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E6ABE61E5C43C800989195 /* PasswordStrengthIndicatorView.m */; };
 		A9E6ABEA1E5C440A00989195 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E6ABE91E5C440A00989195 /* ImageViewController.m */; };
 		A9E6ABEE1E5C443100989195 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9E6ABED1E5C443100989195 /* ImageView.m */; };
+		A9EB890E1E60339600EB75B6 /* CAShapeLayerAnimates.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EB890C1E60339600EB75B6 /* CAShapeLayerAnimates.m */; };
+		A9EB89131E60343D00EB75B6 /* shapeLayerMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EB89121E60343D00EB75B6 /* shapeLayerMenuViewController.m */; };
+		A9EB89171E6034DB00EB75B6 /* CALayer+XHLayer_applyAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EB89161E6034DB00EB75B6 /* CALayer+XHLayer_applyAnimation.m */; };
+		A9EB891A1E6034E300EB75B6 /* UIMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EB89191E6034E300EB75B6 /* UIMenuButton.m */; };
+		A9EB891E1E6035D100EB75B6 /* CheckBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EB891D1E6035D100EB75B6 /* CheckBtn.m */; };
+		A9EB89211E60360D00EB75B6 /* CheckBtnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EB89201E60360D00EB75B6 /* CheckBtnViewController.m */; };
+		A9EB89291E6038D600EB75B6 /* CircleProgressController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9EB89271E6038D600EB75B6 /* CircleProgressController.m */; };
+		A9EB892A1E6038D600EB75B6 /* CircleProgressController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9EB89281E6038D600EB75B6 /* CircleProgressController.xib */; };
 		A9FF6B3F1E52DE630046F1B4 /* TransitionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6B3D1E52DE630046F1B4 /* TransitionAnimationController.m */; };
 		A9FF6B401E52DE630046F1B4 /* TransitionAnimationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FF6B3E1E52DE630046F1B4 /* TransitionAnimationController.xib */; };
 		A9FF6B441E52DFEE0046F1B4 /* ComprehensiveCaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FF6B421E52DFEE0046F1B4 /* ComprehensiveCaseController.m */; };
@@ -358,6 +366,21 @@
 		A9E6ABE91E5C440A00989195 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		A9E6ABEC1E5C443100989195 /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
 		A9E6ABED1E5C443100989195 /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
+		A9EB890B1E60339600EB75B6 /* CAShapeLayerAnimates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerAnimates.h; sourceTree = "<group>"; };
+		A9EB890C1E60339600EB75B6 /* CAShapeLayerAnimates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerAnimates.m; sourceTree = "<group>"; };
+		A9EB89111E60343D00EB75B6 /* shapeLayerMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shapeLayerMenuViewController.h; sourceTree = "<group>"; };
+		A9EB89121E60343D00EB75B6 /* shapeLayerMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shapeLayerMenuViewController.m; sourceTree = "<group>"; };
+		A9EB89151E6034DB00EB75B6 /* CALayer+XHLayer_applyAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XHLayer_applyAnimation.h"; sourceTree = "<group>"; };
+		A9EB89161E6034DB00EB75B6 /* CALayer+XHLayer_applyAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XHLayer_applyAnimation.m"; sourceTree = "<group>"; };
+		A9EB89181E6034E300EB75B6 /* UIMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMenuButton.h; sourceTree = "<group>"; };
+		A9EB89191E6034E300EB75B6 /* UIMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMenuButton.m; sourceTree = "<group>"; };
+		A9EB891C1E6035D100EB75B6 /* CheckBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBtn.h; sourceTree = "<group>"; };
+		A9EB891D1E6035D100EB75B6 /* CheckBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBtn.m; sourceTree = "<group>"; };
+		A9EB891F1E60360D00EB75B6 /* CheckBtnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckBtnViewController.h; sourceTree = "<group>"; };
+		A9EB89201E60360D00EB75B6 /* CheckBtnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckBtnViewController.m; sourceTree = "<group>"; };
+		A9EB89261E6038D600EB75B6 /* CircleProgressController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressController.h; sourceTree = "<group>"; };
+		A9EB89271E6038D600EB75B6 /* CircleProgressController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressController.m; sourceTree = "<group>"; };
+		A9EB89281E6038D600EB75B6 /* CircleProgressController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CircleProgressController.xib; sourceTree = "<group>"; };
 		A9FF6B3C1E52DE630046F1B4 /* TransitionAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationController.h; sourceTree = "<group>"; };
 		A9FF6B3D1E52DE630046F1B4 /* TransitionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimationController.m; sourceTree = "<group>"; };
 		A9FF6B3E1E52DE630046F1B4 /* TransitionAnimationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransitionAnimationController.xib; sourceTree = "<group>"; };
@@ -653,6 +676,7 @@
 			children = (
 				A9A259D11E30B5EC00B21C93 /* BaseViewController.h */,
 				A9A259D21E30B5EC00B21C93 /* BaseViewController.m */,
+				A9EB890A1E60336400EB75B6 /* CAShapeLayer */,
 				A9B78E561E5D83940017D133 /* 常用动画集合类 */,
 				A9E6AB051E5C173300989195 /* POPing */,
 				A919E26B1E56F19200A1933F /* CALayer */,
@@ -764,6 +788,7 @@
 		A9E6AB0C1E5C17E600989195 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				A9EB89141E6034D500EB75B6 /* CAlayer */,
 				A9E6AB0D1E5C180C00989195 /* pop */,
 			);
 			path = Libs;
@@ -976,6 +1001,59 @@
 			path = ImageView;
 			sourceTree = "<group>";
 		};
+		A9EB890A1E60336400EB75B6 /* CAShapeLayer */ = {
+			isa = PBXGroup;
+			children = (
+				A9EB890B1E60339600EB75B6 /* CAShapeLayerAnimates.h */,
+				A9EB890C1E60339600EB75B6 /* CAShapeLayerAnimates.m */,
+				A9EB89221E60371C00EB75B6 /* CircleProgress(圆形进度条) */,
+				A9EB891B1E6035AB00EB75B6 /* checkButton */,
+				A9EB89101E60342300EB75B6 /* menu菜单 */,
+			);
+			path = CAShapeLayer;
+			sourceTree = "<group>";
+		};
+		A9EB89101E60342300EB75B6 /* menu菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				A9EB89111E60343D00EB75B6 /* shapeLayerMenuViewController.h */,
+				A9EB89121E60343D00EB75B6 /* shapeLayerMenuViewController.m */,
+				A9EB89181E6034E300EB75B6 /* UIMenuButton.h */,
+				A9EB89191E6034E300EB75B6 /* UIMenuButton.m */,
+			);
+			path = "menu菜单";
+			sourceTree = "<group>";
+		};
+		A9EB89141E6034D500EB75B6 /* CAlayer */ = {
+			isa = PBXGroup;
+			children = (
+				A9EB89151E6034DB00EB75B6 /* CALayer+XHLayer_applyAnimation.h */,
+				A9EB89161E6034DB00EB75B6 /* CALayer+XHLayer_applyAnimation.m */,
+			);
+			path = CAlayer;
+			sourceTree = "<group>";
+		};
+		A9EB891B1E6035AB00EB75B6 /* checkButton */ = {
+			isa = PBXGroup;
+			children = (
+				A9EB891C1E6035D100EB75B6 /* CheckBtn.h */,
+				A9EB891D1E6035D100EB75B6 /* CheckBtn.m */,
+				A9EB891F1E60360D00EB75B6 /* CheckBtnViewController.h */,
+				A9EB89201E60360D00EB75B6 /* CheckBtnViewController.m */,
+			);
+			path = checkButton;
+			sourceTree = "<group>";
+		};
+		A9EB89221E60371C00EB75B6 /* CircleProgress(圆形进度条) */ = {
+			isa = PBXGroup;
+			children = (
+				A9EB89261E6038D600EB75B6 /* CircleProgressController.h */,
+				A9EB89271E6038D600EB75B6 /* CircleProgressController.m */,
+				A9EB89281E6038D600EB75B6 /* CircleProgressController.xib */,
+			);
+			path = "CircleProgress(圆形进度条)";
+			sourceTree = "<group>";
+		};
 		A9FF6B461E52E1380046F1B4 /* 仿Path菜单动画 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1147,6 +1225,7 @@
 				A9C429341E31EA9600599E91 /* KeyFrameAnimationsController.xib in Resources */,
 				A919E14A1E5402A800A1933F /* bg-menuitem-highlighted@2x.png in Resources */,
 				A9FF6B761E52E9AC0046F1B4 /* chooser-moment-button@2x.png in Resources */,
+				A9EB892A1E6038D600EB75B6 /* CircleProgressController.xib in Resources */,
 				A919E2621E56E8C100A1933F /* star.png in Resources */,
 				A9FF6B5B1E52E6F00046F1B4 /* fold.caf in Resources */,
 				A9FF6B4B1E52E14E0046F1B4 /* PathMenusViewController.xib in Resources */,
@@ -1191,6 +1270,7 @@
 				A9E6AB421E5C180C00989195 /* POPAnimatableProperty.mm in Sources */,
 				A9E6ABBA1E5C38EE00989195 /* CircleView.m in Sources */,
 				A9A259D41E30B5EC00B21C93 /* BaseViewController.m in Sources */,
+				A9EB891E1E6035D100EB75B6 /* CheckBtn.m in Sources */,
 				A919E26E1E56F1A600A1933F /* CALayerAnimaeViewController.m in Sources */,
 				A9E6AB441E5C180C00989195 /* POPAnimationEvent.mm in Sources */,
 				A9E6ABCC1E5C3DCB00989195 /* DismissingAnimator.m in Sources */,
@@ -1228,16 +1308,21 @@
 				A9E6AB4E1E5C180D00989195 /* POPLayerExtras.mm in Sources */,
 				A9761F1A1E52F1CD00199D05 /* XHConfigureSoundsModel.m in Sources */,
 				A919E21C1E56E74700A1933F /* effectOfParticleAnimatesViewController.m in Sources */,
+				A9EB89131E60343D00EB75B6 /* shapeLayerMenuViewController.m in Sources */,
 				A9A259AE1E30B2A000B21C93 /* main.m in Sources */,
 				A9E6AB5F1E5C2EA100989195 /* POPButtonViewController.m in Sources */,
 				A919E24D1E56E8C100A1933F /* likeViewController.m in Sources */,
+				A9EB89291E6038D600EB75B6 /* CircleProgressController.m in Sources */,
 				A9E6AB511E5C180D00989195 /* POPSpringAnimation.mm in Sources */,
 				A919E12D1E54020700A1933F /* PathMenusViewController2.m in Sources */,
 				A9FF6B4F1E52E2230046F1B4 /* XHPathCenterButton.m in Sources */,
 				A919E1351E54022500A1933F /* AwesomeMenuItem.m in Sources */,
 				A9E6AB641E5C32CD00989195 /* POPDecayViewController.m in Sources */,
+				A9EB891A1E6034E300EB75B6 /* UIMenuButton.m in Sources */,
 				A9A259D81E30B81F00B21C93 /* BaseAnimationViewController.m in Sources */,
+				A9EB890E1E60339600EB75B6 /* CAShapeLayerAnimates.m in Sources */,
 				A9B78E591E5D839B0017D133 /* XHCoreAnimationEffect.m in Sources */,
+				A9EB89171E6034DB00EB75B6 /* CALayer+XHLayer_applyAnimation.m in Sources */,
 				A9E6AB4B1E5C180C00989195 /* POPCustomAnimation.mm in Sources */,
 				A9E6ABCF1E5C3DD300989195 /* PresentingAnimator.m in Sources */,
 				A9FF6B441E52DFEE0046F1B4 /* ComprehensiveCaseController.m in Sources */,
@@ -1253,6 +1338,7 @@
 				A919E2631E56E8C100A1933F /* effectOfParticleViewController.m in Sources */,
 				A9E6ABD31E5C415300989195 /* PaperButton.m in Sources */,
 				A9E6ABC11E5C3CE500989195 /* POPCustomTransitionViewController.m in Sources */,
+				A9EB89211E60360D00EB75B6 /* CheckBtnViewController.m in Sources */,
 				A9E6ABC61E5C3D0A00989195 /* POPCustomTransitionPressonViewController.m in Sources */,
 				A919E2691E56E8C100A1933F /* FireworksViewController.m in Sources */,
 			);

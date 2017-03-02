@@ -28,6 +28,8 @@
 
 #import "POPingViewController.h"
 #import "XHCommonAnimationCollectionViewController.h"
+
+#import "CAShapeLayerAnimates.h"
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 
 
@@ -44,7 +46,7 @@
 }
 
 -(void)initData{
-    _menuArray = [NSArray arrayWithObjects:@"基础动画",@"关键帧动画",@"组动画",@"仿射变换",@"过渡动画",@"仿Path 菜单动画",@"仿Path 菜单动画2",@"钉钉",@"粒子效果",@"POPing",@"常用动画封装看代码XHCommonAnimationCollectionViewController", nil];
+    _menuArray = [NSArray arrayWithObjects:@"基础动画",@"关键帧动画",@"组动画",@"仿射变换",@"过渡动画",@"仿Path 菜单动画",@"仿Path 菜单动画2",@"钉钉",@"粒子效果",@"POPing",@"常用动画封装看代码XHCommonAnimationCollectionViewController",@"CAShapeLayerAnimates", nil];
 }
 
 -(void)initView{
@@ -123,6 +125,9 @@
             break;
         case 10:
             viewController = [[XHCommonAnimationCollectionViewController alloc] init];
+            break;
+        case 11:
+            viewController = [[CAShapeLayerAnimates alloc] init];
             break;
 
         default:
